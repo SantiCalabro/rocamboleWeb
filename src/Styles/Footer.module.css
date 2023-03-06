@@ -63,7 +63,7 @@
     height: 150px;
   }
   .footerContainer img {
-    width: 45vw;
+    width: 50vw;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -71,8 +71,10 @@
     padding-top: 5px;
   }
   .me {
-    height: 40px;
+    height: fit-content;
     width: 50vw;
+    position: relative;
+    top: 5px;
   }
   .me h5 {
     font-size: 16px;
@@ -87,15 +89,17 @@
     right: 5px;
     margin: 0;
     padding: 0;
-    top: 10px;
+    top: 5px;
     height: fit-content;
-    align-items: normal;
+
+    justify-content: baseline;
     padding-right: 100%;
     padding-left: 0px;
   }
 
   .contact svg {
-    scale: 1;
-    margin: 0px;
+    scale: 1.2;
+    margin: 5px;
+    margin-left: 0;
   }
 }
