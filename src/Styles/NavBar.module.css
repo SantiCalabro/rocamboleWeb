@@ -1,0 +1,224 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.navBar {
+  background-color: #111;
+  width: 100vw;
+  height: 80px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 900;
+}
+.me {
+  color: #fff;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border-left: solid 1px #fff;
+}
+.me h5 {
+  font-weight: 200;
+  margin: 0;
+}
+.me p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+  margin: 0;
+}
+.menu {
+  height: 35px;
+  right: 50px;
+  scale: 0.6;
+  cursor: pointer;
+  position: absolute;
+  fill: #fff;
+  bottom: 0;
+  transition: 0.15s ease-in-out;
+}
+
+.contact {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  top: 10px;
+  width: 60px;
+  align-items: center;
+}
+.contact svg {
+  scale: 1;
+  fill: #aaaaaa;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.contact svg:hover {
+  fill: #8b8b8b;
+  transition: 0.15s ease-in-out;
+}
+
+.closedMenu {
+  height: 35px;
+  right: 50px;
+  scale: 0.6;
+  cursor: pointer;
+  position: absolute;
+  fill: #fff;
+  bottom: 0;
+  rotate: -180deg;
+  transition: 0.15s ease-in-out;
+}
+.logoContainer {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  cursor: pointer;
+}
+.logoContainer img {
+  margin-right: 20px;
+}
+.whiteLogo {
+  height: 60px;
+}
+.responsiveClosedMenu,
+.responsiveMenu {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .whiteLogo {
+    height: auto;
+    width: 30vw;
+  }
+
+  .me {
+    color: #fff;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border-left: solid 1px #fff;
+    margin-left: 0;
+  }
+  .me h5 {
+    font-size: 14px;
+  }
+  .me p {
+    font-size: 12px;
+  }
+  .logoContainer img {
+    margin-right: 10px;
+  }
+  .logoContainer {
+    margin-left: 20px;
+    margin-top: -20px;
+    width: 90vw;
+  }
+  .contact {
+    width: fit-content;
+    top: 65px;
+    right: 20px;
+    align-items: center;
+  }
+  .contact svg {
+    scale: 0.8;
+    margin-right: 0;
+  }
+  .navBar {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsiveMenu {
+    left: 20px;
+    top: 78px;
+    scale: 0.6;
+    cursor: pointer;
+    position: absolute;
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    display: block;
+  }
+  .responsiveClosedMenu {
+    left: 20px;
+    top: 78px;
+    scale: 0.6;
+    cursor: pointer;
+    position: absolute;
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    display: block;
+  }
+  .menu,
+  .closedMenu {
+    display: none;
+  }
+
+  .middle {
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.15s ease;
+    top: 3px;
+  }
+  .top {
+    bottom: 4px;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.15s ease-in-out;
+  }
+  .activeTop {
+    bottom: 14px;
+    height: 3px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    transform: rotate(-45deg);
+    transform-origin: right;
+    top: -13px;
+  }
+  .bottom {
+    top: 14px;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.3s ease;
+  }
+  .activeBottom {
+    top: -25px;
+    height: 3px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    transform: rotate(45deg);
+    transform-origin: right;
+    top: 13px;
+  }
+}

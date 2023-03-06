@@ -1,0 +1,97 @@
+.footerContainer {
+  background-color: #4e4e4e;
+  padding: 20px;
+  display: flex;
+  width: 100vw;
+}
+.footerContainer img {
+  width: 150px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.data {
+  width: fit-content;
+  display: flex;
+  margin-left: 0;
+}
+.me {
+  color: #fff;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  border-left: solid 1px #fff;
+}
+.me h5 {
+  font-weight: 200;
+  margin: 0;
+}
+.me p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+  margin: 0;
+}
+.contact {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  height: 60px;
+  width: 100px;
+  align-items: center;
+}
+.contact svg {
+  scale: 1.5;
+  fill: #aaaaaa;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact svg:hover {
+  fill: #8b8b8b;
+  transition: 0.15s ease-in-out;
+}
+.contactIcons {
+  width: fit-content;
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .footerContainer {
+    width: 100vw;
+    height: 150px;
+  }
+  .footerContainer img {
+    width: 40vw;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+  .me {
+    height: 40px;
+    width: 50vw;
+    padding-left: 10px;
+  }
+  .me h5 {
+    font-size: 15px;
+  }
+  .me p {
+    font-size: 10px;
+    width: 100%;
+  }
+  .contact {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    margin-top: 40px;
+    height: fit-content;
+  }
+  .contact svg {
+    scale: 1;
+  }
+}
