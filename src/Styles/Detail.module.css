@@ -65,7 +65,7 @@
   filter: brightness(0.5);
   transition: 0.15s ease-in-out;
 }
-.detail button {
+.detail span {
   background-color: #d62828;
   border: none;
   padding-left: 15px;
@@ -80,31 +80,48 @@
   text-transform: uppercase;
   margin-top: 20px;
 }
-
+.backBtn {
+  width: 35px;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  cursor: pointer;
+}
+.backBtn:hover {
+  fill: #d62828;
+  transition: 0.15s ease-in-out;
+}
 .detail button:hover {
   background-color: #fff;
   color: #d62828;
   transition: 0.15s ease-in-out;
 }
 @media screen and (max-width: 767px) {
+  .backBtn {
+    top: 110px;
+    left: 20px;
+    cursor: pointer;
+  }
   .detailContainer {
     flex-direction: column;
   }
   .imgContainer {
     height: 80vh;
-    min-width: 80vw;
+    min-width: 100vw;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    background-color: #dcdcdc;
   }
   .detail {
     margin-top: -100px;
     width: 80vw;
-
     margin: 0;
   }
   .imgContainer img {
     width: 100%;
+    height: fit-content;
+
     cursor: pointer;
     object-fit: cover;
   }

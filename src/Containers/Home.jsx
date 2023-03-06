@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <div className={H.mainImageContainer}>
         <img
-          src="https://res.cloudinary.com/dcbswyqrd/image/upload/v1678080927/Rocambole-mainimage.bc38df9ab0e6cec5352d_fiybgh.jpg"
+          src="https://res.cloudinary.com/dcbswyqrd/image/upload/v1678138957/Rocambole-mainimage.bc38df9ab0e6cec5352d_lrkkii.jpg"
           alt="Rocambole"
           className={H.mainImage}
           id="main-image"
