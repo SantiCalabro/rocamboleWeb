@@ -101,4 +101,7 @@ body {
   .info p {
     font-size: 18px;
   }
+  .info h4 {
+    width: 80%;
+  }
 }
