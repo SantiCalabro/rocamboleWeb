@@ -4,9 +4,9 @@ body {
 }
 .mainImageContainer {
   width: 100vw;
-  height: 645px;
+  height: 500px;
   overflow: hidden;
-  margin-top: -20px;
+  margin-top: 40px;
 }
 .mainImageContainer img {
   width: 100%;
@@ -19,7 +19,7 @@ body {
 }
 .quote {
   position: relative;
-  top: -200px;
+  top: -150px;
   color: #fff;
   font-size: 25px;
   font-weight: 400;
@@ -29,7 +29,7 @@ body {
 }
 .signature {
   position: relative;
-  top: -200px;
+  top: -150px;
   color: #fff;
   font-size: 25px;
   font-weight: 600;
@@ -101,6 +101,10 @@ body {
   border-bottom: solid 1px #333;
 }
 @media screen and (max-width: 767px) {
+  .quote,
+  .signature {
+    top: -200px;
+  }
   .imgCont img {
     width: 100%;
     height: fit-content;
