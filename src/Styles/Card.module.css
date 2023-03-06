@@ -98,4 +98,7 @@ body {
     display: flex;
     width: 100%;
   }
+  .info p {
+    font-size: 18px;
+  }
 }

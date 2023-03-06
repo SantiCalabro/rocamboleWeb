@@ -30,8 +30,10 @@ function NavBar() {
             <img src={WhiteLogo} className={N.whiteLogo} alt="Logo" />
           </Link>
           <div className={N.me}>
-            <h5>Santiago Calabró</h5>
-            <p>Distribuidor autorizado</p>
+            <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+              <h5>Santiago Calabró</h5>
+              <p>Distribuidor autorizado</p>
+            </Link>
             <div className={N.contact}>
               <ReactWhatsapp
                 number="+54 2213085752"

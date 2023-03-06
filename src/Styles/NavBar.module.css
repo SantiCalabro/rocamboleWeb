@@ -52,7 +52,7 @@ body {
   position: absolute;
   right: 50px;
   display: flex;
-  top: 10px;
+  top: 20px;
   width: 60px;
   align-items: center;
 }
@@ -111,10 +111,11 @@ body {
     margin-left: 0;
   }
   .me h5 {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 600;
   }
   .me p {
-    font-size: 12px;
+    font-size: 13px;
   }
   .logoContainer img {
     margin-right: 0px;
