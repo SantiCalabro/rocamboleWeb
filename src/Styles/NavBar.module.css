@@ -221,4 +221,7 @@ body {
     transform-origin: right;
     top: 13px;
   }
+  .notResponsive {
+    display: none;
+  }
 }

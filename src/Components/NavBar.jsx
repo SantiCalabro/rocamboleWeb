@@ -6,12 +6,14 @@ import { useState } from "react";
 import ReactWhatsapp from "react-whatsapp";
 
 function NavBar() {
-  const [nav, setNav] = useState(true);
-
+  const [nav, setNav] = useState(false);
+  const [desktopNav, setDesktopNav] = useState(true);
   const HandleNav = () => {
     setNav(!nav);
   };
-
+  const HandleDesktopNav = () => {
+    setDesktopNav(!desktopNav);
+  };
   return (
     <div>
       <nav className={N.navBar}>
@@ -34,8 +36,8 @@ function NavBar() {
         </div>
 
         <svg
-          onClick={HandleNav}
-          className={nav ? N.closedMenu : N.menu}
+          onClick={HandleDesktopNav}
+          className={desktopNav ? N.closedMenu : N.menu}
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -71,7 +73,8 @@ function NavBar() {
           </a>
         </div>
       </nav>
-      {nav === true && <Menu />}
+      <div className={N.responsive}>{nav === true && <Menu />}</div>
+      <div className={N.notResponsive}>{desktopNav === true && <Menu />}</div>
     </div>
   );
 }

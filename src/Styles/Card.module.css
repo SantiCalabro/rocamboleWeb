@@ -18,9 +18,7 @@ body {
   transition: 0.15s ease-in-out;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
-.textMuted {
-  margin-top: -5px;
-}
+
 .textProduct {
   margin-top: 10px;
 }
@@ -66,13 +64,38 @@ body {
   object-fit: cover;
   cursor: pointer;
 }
+.seeProduct {
+  display: flex;
+  width: 100%;
+}
+.seeProduct span {
+  cursor: pointer;
+  background-color: #888888;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 14px;
+  width: fit-content;
+  margin-right: 0;
+}
+.seeProduct span:hover {
+  background-color: #d1d1d1;
+  color: #888888;
+  transition: 0.15s ease-in-out;
+}
 @media screen and (max-width: 767px) {
   .container {
     width: 70vw;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
   .info {
-    width: 45vw;
-    padding-left: 10px;
+    width: 80%;
+  }
+  .seeProduct {
+    display: flex;
+    width: 100%;
   }
 }

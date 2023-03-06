@@ -15,9 +15,12 @@ export default function Card(props) {
           </div>
           <div className={C.info}>
             <h4 className={C.textProduct}>{props.name}</h4>
-            <p className={C.textMuted}>{props.price}</p>
+            <div className={C.seeProduct}>
+              <p className={C.textMuted}>{props.price}</p>
+              <span>Ver más</span>
+            </div>
           </div>
-        </div>{" "}
+        </div>
       </Link>
     </div>
   );

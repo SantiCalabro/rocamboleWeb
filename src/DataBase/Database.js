@@ -273,6 +273,7 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042829/image-15_jqfft2.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134276/descarga_dadnn5.png",
     ],
   },
   {
@@ -286,6 +287,7 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042788/image-16_vnwjqc.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134276/descarga_dadnn5.png",
     ],
   },
   {
@@ -299,6 +301,8 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042897/image-17_pxznol.png",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134409/WhatsApp_Image_2020-12-02_at_7.50.05_PM_dcfwgo.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134278/descarga_1_nh79v3.png",
     ],
   },
   {
@@ -312,6 +316,8 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042906/image-18_kxo7zg.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134409/WhatsApp_Image_2020-12-02_at_7.50.05_PM_dcfwgo.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134278/descarga_1_nh79v3.png",
     ],
   },
   {
@@ -325,6 +331,8 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042907/image-19_nrss5k.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134435/WhatsApp_Image_2021-07-12_at_5.59.24_PM_1_ugsxji.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134276/descarga_dadnn5.png",
     ],
   },
   {
@@ -338,6 +346,8 @@ let database = [
     description: "Remeras oficiales Rocambole. Edición limitada",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678042905/image-20_y2xzlo.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134435/WhatsApp_Image_2021-07-12_at_5.59.25_PM_whd56c.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678134276/descarga_dadnn5.png",
     ],
   },
 
