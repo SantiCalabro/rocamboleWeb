@@ -35,9 +35,8 @@ export default function Detail() {
               <img src={image} alt="" />
             </div>
             <div className={D.detail}>
-              <div className={D.back}>
+              <div className={D.back} onClick={() => navigate(-1)}>
                 <svg
-                  onClick={() => navigate(-1)}
                   className={D.backBtn}
                   clip-rule="evenodd"
                   fill-rule="evenodd"

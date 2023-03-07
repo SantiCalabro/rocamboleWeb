@@ -4,7 +4,7 @@
   background-color: #fff;
   overflow: hidden;
   margin: 100px;
-  margin-top: 180px;
+  margin-top: 18git 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,12 +81,20 @@
   text-transform: uppercase;
   margin-top: 20px;
 }
+.back label {
+  cursor: pointer;
+}
+
 .backBtn {
   width: 35px;
   cursor: pointer;
 }
 .backBtn:hover {
   fill: #d62828;
+  transition: 0.15s ease-in-out;
+}
+.backBtn:hover ~ {
+  color: #d62828;
   transition: 0.15s ease-in-out;
 }
 .detail button:hover {
