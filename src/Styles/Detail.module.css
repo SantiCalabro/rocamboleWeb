@@ -26,6 +26,7 @@
   margin: 0;
   margin-bottom: 50px;
   padding-top: 30px;
+  border: solid 1px red;
 }
 .detail {
   width: 30vw;
