@@ -897,7 +897,7 @@ let database = [
     price: "$750",
     id: 54,
     description: "Imanes de Patricio Rey.",
-    measure: "7x7cm",
+    measure: "7x7cm.",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207368/IMG_20230307_130520026_HDR_nhppv4.jpg",
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207372/IMG_20230307_130648528_HDR_xyz91s.jpg",
