@@ -13,6 +13,7 @@ export default function Menu() {
               <li>{el.type}</li>
             </Link>
           ))}
+
           <Link to="/distribucion" style={{ textDecoration: "none" }}>
             <li
               style={{ fontWeight: 700, cursor: "pointer", color: "#d62828" }}
