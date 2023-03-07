@@ -25,12 +25,11 @@
   text-align: left;
   margin: 0;
   margin-bottom: 50px;
+  padding-top: 30px;
 }
 .detail {
   width: 30vw;
   margin: 0;
-
-  margin-top: 30px;
 }
 .allPicsContainer {
   width: 100vw;
