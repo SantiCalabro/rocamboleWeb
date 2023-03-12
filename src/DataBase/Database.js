@@ -167,7 +167,7 @@ let database = [
     stock: 3,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677986802/momo_tmxdkv.jpg",
     available: true,
-    price: "$1000",
+    price: "$1500",
     id: 9,
     description:
       "Escapulario realizado en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler.",
