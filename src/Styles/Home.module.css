@@ -39,8 +39,9 @@ body {
   margin-top: -550px;
 }
 .categoriesContainer {
-  display: flex;
-  width: 100%;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
   overflow: hidden;
   margin-bottom: 50px;
@@ -49,6 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  margin: 20px;
 }
 
 .container:hover .typeCont h2 {
@@ -148,7 +150,8 @@ body {
     margin: 0;
     margin-bottom: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
   }
 
   .imgCont {
@@ -174,5 +177,23 @@ body {
   }
   .typeCont h2 {
     font-size: 14px;
+  }
+  .categoriesContainer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .container {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgCont {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

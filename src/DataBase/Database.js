@@ -1,5 +1,10 @@
 let categories = [
   {
+    type: "coleccionables",
+    path: "/coleccionables",
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429131/IMG_20230330_171749578_nh9yvj.jpg",
+  },
+  {
     type: "libros",
     path: "/libros",
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677958682/WhatsApp_Image_2021-03-03_at_2.38.34_PM_1_lray3x.jpg",
@@ -877,7 +882,7 @@ let database = [
     available: true,
     price: "$750",
     id: 53,
-    description: "Prendedores de Patricio Rey.",
+    description: "Prendedores de Patricio Rey. Precio por unidad.",
     measure: "56mm de diámetro",
     allPics: [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207367/IMG_20230307_132948741_HDR_bva7dp.jpg",
@@ -907,6 +912,91 @@ let database = [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207367/IMG_20230307_130809744_HDR_xqajl7.jpg",
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207367/IMG_20230307_130729627_HDR_p53sql.jpg",
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678208154/IMG_20230307_135447967_HDR_m2hkzp.jpg",
+    ],
+  },
+  {
+    name: "Afiche lanzamiento Momo Sampler",
+    category: "coleccionables",
+    stock: 1,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429041/IMG_20230330_171749578_rymkf0.jpg",
+    available: true,
+    price: "$10.000",
+    id: 55,
+    description: "Afiche de lanzamiento del disco Momo Sampler (2000).",
+    measure: "33x47,5cm.",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429041/IMG_20230330_171749578_rymkf0.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429476/IMG_20230330_171810796_xcefse.jpg",
+    ],
+  },
+  {
+    name: "Entradas Olavarría 1977",
+    category: "coleccionables",
+    stock: 1,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429701/IMG_20230330_172042712_l2a2us.jpg",
+    available: true,
+    price: "$7.500",
+    id: 56,
+    description:
+      "Entradas para Olavarría 1997, suspendido. Naranja: Campo - Azul y Verde: Tribuna. Originales e impresas en papel sintético Tyvek",
+    measure: "28x7,5cm.",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429701/IMG_20230330_172042712_l2a2us.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682429822/IMG_20230330_171914938_a0c6ie.jpg",
+    ],
+  },
+  {
+    name: "Entradas Unión de Santa Fe 2001",
+    category: "coleccionables",
+    stock: 1,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682430615/IMG_20230425_104530491_HDR_kgqnjc.jpg",
+    available: true,
+    price: "$10.000",
+    id: 57,
+    description:
+      "Entradas Unión Santa Fe 2001, el recital que no fue. Originales e impresas en papel sintético Tyvek. Violeta: Platea - Gris: Popular Campo - Marrón: Invitación",
+    measure: "10x21cm.",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682430615/IMG_20230425_104530491_HDR_kgqnjc.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682430616/IMG_20230330_172207061_ax7dgv.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682430617/IMG_20230330_172237344_tymxpx.jpg",
+    ],
+  },
+  {
+    name: "Entradas Estadio Córdoba 2001",
+    category: "coleccionables",
+    stock: 1,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431440/IMG_20230330_172334415_ygpc2u.jpg",
+    available: true,
+    price: "$7.000",
+    id: 58,
+    description:
+      "Entradas Estadio Córdoba 2001. Originales e impresas en papel sintético Tyvek. Violeta: Platea baja - Celeste: Platea alta - Roja: Invitación campo",
+    measure: "10x21cm.",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431440/IMG_20230330_172334415_ygpc2u.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431442/IMG_20230425_104651025_HDR_sigodq.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431439/IMG_20230330_172354751_ybfgrg.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431439/IMG_20230425_104635561_HDR_msbbzt.jpg",
+    ],
+  },
+  {
+    name: "Cancionero Momo Sampler (Pliego de impresión)",
+    category: "coleccionables",
+    stock: 1,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172618695_lt0hdk.jpg",
+    available: true,
+    price: "$30.000",
+    id: 59,
+    description:
+      "Pliego de impresión del cancionero del disco Momo Sampler. Impreso frente y dorso en papel estucado brillante 300 g/m2",
+    measure: "35x50cm.",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172618695_lt0hdk.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172611573_HDR_ti4kay.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172600715_HDR_ezbyl1.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172529602_fjh7xf.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172710923_HDR_idyk27.jpg",
     ],
   },
 ];
