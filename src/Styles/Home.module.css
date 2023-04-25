@@ -180,11 +180,12 @@ body {
   }
   .categoriesContainer {
     width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .container {
-    width: 60vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
