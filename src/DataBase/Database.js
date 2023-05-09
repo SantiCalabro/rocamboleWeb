@@ -42,7 +42,7 @@ let database = [
     stock: 8,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677984397/IMG_20210211_162158_111_zbsncw.jpg",
     available: true,
-    price: "$6500",
+    price: "$7500",
     id: 1,
     description:
       "Solos y de Noche es un álbum de recuerdos, un libro de 256 páginas se rememora la trayectoria de Los Redondos, sus discos, sus misas, su mística. Con prólogo de la pluma del Maestro Rocambole.",
@@ -59,7 +59,7 @@ let database = [
     stock: 8,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677984566/290398162_874374700193715_3732830641627625658_n_fjhq5y.jpg",
     available: true,
-    price: "$5500",
+    price: "$6000",
     id: 2,
     description:
       "De Regreso a Oktubre es un libro que reúne todo el proceso creativo que llevó al desarrollo final del arte de tapas del mítico disco Oktubre, incluyendo imágenes inéditas que han quedado excluídas en la obra final. ",
@@ -77,7 +77,7 @@ let database = [
     stock: 8,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677984650/image-3_locayd.jpg",
     available: true,
-    price: "$6500",
+    price: "$7500",
     id: 3,
     description:
       "Rocambole - Arte, Diseño y Contracultura recorre a través de 200 páginas toda la obra de Rocambole. Su universo estético y temático, La Cofradía, el arte ricotero, la obra plástica y la experiencia docente, se despliegan a través de textos propios, ilustraciones, pinturas, aerografías, bocetos, dibujos, gráfica, fotografías y material inédito.",
@@ -172,7 +172,7 @@ let database = [
     stock: 3,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1677986802/momo_tmxdkv.jpg",
     available: true,
-    price: "$1500",
+    price: "$2000",
     id: 9,
     description:
       "Escapulario realizado en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler.",
@@ -188,7 +188,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678040655/image-10_ytloqw.png",
     available: true,
-    price: "$1500",
+    price: "$2000",
     id: 10,
     description:
       "Medallones realizados en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler. Dorso grabado con escudo de Rocambole",
@@ -204,7 +204,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678040753/image-11_hou3k0.jpg",
     available: true,
-    price: "$1500",
+    price: "$2000",
     id: 11,
     description:
       "Medallones realizados en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler. Dorso grabado con escudo de Rocambole",
@@ -220,7 +220,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678040809/image-12_md5fay.jpg",
     available: true,
-    price: "$1500",
+    price: "$2000",
     id: 12,
     description:
       "Medallones realizados en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler. Dorso grabado con escudo de Rocambole",
@@ -236,7 +236,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678041060/coleccion_esclavo_2_xtcm31.jpg",
     available: true,
-    price: "$1500 c/u",
+    price: "$2000 c/u",
     id: 13,
     description:
       "Medallones realizados en una aleación compuesta por plomo, antimonio y estaño. Fabricados por el orfebre Julio Crispino, responsable de la creación del Escapulario Momo Sampler. Dorso grabado con escudo de Rocambole",
@@ -252,7 +252,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678041561/IMG_20201111_191729_168_fpuzym.jpg",
     available: true,
-    price: "$30.000",
+    price: "$40.000",
     id: 14,
     description:
       "Numerado y firmado por Julio Crispino, orfebre responsable de la fabricación del original Momo Sampler. Contenido en un Boxset Premium junto a un Escapulario medida original y facsímiles históricos.",
@@ -391,7 +391,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678044135/IMG_20230305_161836195_HDR_ysxiwg.jpg",
     available: true,
-    price: "$1000",
+    price: "$1250",
     id: 23,
     description: "Llavero artesanal fabricado en impresión 3D",
     allPics: [
@@ -438,7 +438,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678045889/image-26_guede5.png",
     measures: "35x50cm",
     available: true,
-    price: "$7500",
+    price: "$8500",
     id: 51,
     description:
       "Colección de 5 Afiches de recitales históricos, impresos en serigrafía artesanal. Sobre contenedor incluído. Modelos: Huracán 1993, Paladium 1986, Margarita Xirgu 1982, Cerrito 1978, La Plata 1989.",
@@ -459,7 +459,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678045991/Coleccion%202/descarga_5_zodjqe.png",
     measures: "35x50cm",
     available: true,
-    price: "$7500",
+    price: "$8500",
     id: 26,
     description:
       "Colección de 5 Afiches de recitales históricos, impresos en serigrafía artesanal. Sobre contenedor incluído. Modelos: Atenas 1986, La Nave de los Locos 1984, La Plata 1988, Microestado de Lanús 1992, Teatro Bambalinas 1982 ",
@@ -480,7 +480,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678046045/Coleccion%202/image-27_wx5cdh.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 27,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -496,7 +496,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678046060/Coleccion%202/image-28_emvfgh.jpg",
     measures: "50x70cm",
     available: false,
-    price: "$3750",
+    price: "$4500",
     id: 28,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -512,7 +512,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678048087/Coleccion%202/image-29_iau4vh_ujxc4v.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 29,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -528,7 +528,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678048015/Coleccion%202/image-30_kgkmzl_ge9wbk.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 30,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -544,7 +544,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047873/Coleccion%202/image-31_o34k7t_sl3mdv.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 31,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -560,7 +560,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047818/Coleccion%202/image-32_eth5h9_uolxtj.jpg",
     measures: "50x70cm",
     available: false,
-    price: "$3750",
+    price: "$4500",
     id: 32,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -576,7 +576,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047740/Coleccion%202/image-33_fi1f1z_hyyiy2.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 33,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -592,7 +592,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047635/Coleccion%202/image-34_otrjfc_c60gho.jpg",
     measures: "50x70cm",
     available: false,
-    price: "$3750",
+    price: "$4500",
     id: 34,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -608,7 +608,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047586/Coleccion%202/image-35_yracpi_kkdyu5.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 35,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -624,7 +624,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047524/Coleccion%202/image-36_k36xym_xmvlc1.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 36,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -640,7 +640,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678046256/Coleccion%202/image-37_yka7sm.jpg",
     measures: "50x70cm",
     available: true,
-    price: "$3750",
+    price: "$4500",
     id: 37,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -656,7 +656,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047489/Coleccion%202/image-38_ynlzp3_m0upw9.jpg",
     measures: "50x70cm",
     available: false,
-    price: "$3750",
+    price: "$4500",
     id: 38,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -672,7 +672,7 @@ let database = [
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678047429/Coleccion%202/image-39_oc6nvu_hhkdxb.jpg",
     measures: "50x70cm",
     available: false,
-    price: "$3750",
+    price: "$4500",
     id: 39,
     description:
       "Láminas artesanales firmadas, selladas y numeradas. Contenidas en un sobre individual de cartulina kraft, con el escudo de Rocambole impreso.",
@@ -880,7 +880,7 @@ let database = [
     stock: 0,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1678207367/IMG_20230307_132948741_HDR_bva7dp.jpg",
     available: true,
-    price: "$750",
+    price: "$1000 c/u",
     id: 53,
     description: "Prendedores de Patricio Rey. Precio por unidad.",
     measure: "56mm de diámetro",
@@ -997,6 +997,24 @@ let database = [
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172600715_HDR_ezbyl1.jpg",
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172529602_fjh7xf.jpg",
       "https://res.cloudinary.com/dcbswyqrd/image/upload/v1682431895/IMG_20230330_172710923_HDR_idyk27.jpg",
+    ],
+  },
+  {
+    name: "Libro Díscolo, Desobediencias del Packaging Creativo",
+    category: "libros",
+    stock: 60,
+    img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646497/122457165_1447512905437735_1311532379130017779_n_aj9von.jpg",
+    available: true,
+    price: "$4500",
+    id: 2,
+    description:
+      "El libro que reúne las mejores tapas del rock nacional. Un compilado con los mejores booklets de discos argentinos",
+    allPics: [
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646497/122457165_1447512905437735_1311532379130017779_n_aj9von.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646507/122430656_1447512935437732_4086969259145496268_n_mjamaz.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646504/2_j61geb.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646509/122435904_1447512932104399_2914324347824264385_o_tenwfx.jpg",
+      "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646510/122181220_1447512915437734_556536969786144274_n_hllfv3.jpg",
     ],
   },
 ];
