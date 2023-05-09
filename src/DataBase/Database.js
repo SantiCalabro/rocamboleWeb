@@ -1002,11 +1002,11 @@ let database = [
   {
     name: "Libro Díscolo, Desobediencias del Packaging Creativo",
     category: "libros",
-    stock: 60,
+    stock: 1,
     img: "https://res.cloudinary.com/dcbswyqrd/image/upload/v1683646497/122457165_1447512905437735_1311532379130017779_n_aj9von.jpg",
     available: true,
     price: "$4500",
-    id: 2,
+    id: 60,
     description:
       "El libro que reúne las mejores tapas del rock nacional. Un compilado con los mejores booklets de discos argentinos",
     allPics: [
